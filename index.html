@@ -27,38 +27,38 @@
     </tr>
     <tr>
         <td>Nombre:</td>
-        <td colspan="3"><input type="text"> </td>
+        <td colspan="3"><input id="nombre" type="text" placeholder="Nombre"> </td>
     </tr>
     <tr>
         <td>Línea de produccion:</td>
-        <td colspan="3"><input type="text"></td>
+        <td colspan="3"><input id="linea" type="text" placeholder="Línea de produccion"></td>
     </tr>
     <tr>
         <td>versión anteriores:</td>
-        <td colspan="3"><input type="text"></td>
+        <td colspan="3"><input id="veranterior" type="text" placeholder="versiones anteriores"></td>
     </tr>
     <tr>
         <td>Versión actual:</td>
-        <td colspan="3"><input type="text"></td>
+        <td colspan="3"><input id="veractual" type="text" placeholder="versión actual"></td>
     </tr>
     <tr>
         <td>Módulo</td>
-        <td colspan="3"><input type="text"></td>
+        <td colspan="3"><input id="modulo" type="text" placeholder="Módulo"></td>
     </tr>
     <tr>
         <th rowspan="3">Descipción del producto</th>
     </tr>
     <tr>
         <td>Descripcion general</td>
-        <td colspan="3"><input type="text"></td>
+        <td colspan="3"><input id="descprincipal" type="text" placeholder="Descripción general"></td>
     </tr>
     <tr>
         <td>Objetivo:</td>
-        <td colspan="3"><input type="text"></td>
+        <td colspan="3"><input id="objetivo" type="text" placeholder="Objetivo"></td>
     </tr>
     <th>Arquitectura</th>
        <td>descripción</td>
-       <td colspan="3"><input type="text"></td>
+       <td colspan="3"><input id="descrip" type="text" placeholder="descripción"></td>
     </th>
     <tr>
     <th rowspan="4">Requerimientos del producto</th>
@@ -67,21 +67,21 @@
     </tr>
     <tr>
         <td>hadware</td>
-        <td><input type="text"></td>
+        <td><input id="hardware" type="text" placeholder="hadware"></td>
         <td>hadware</td>
-        <td ><input type="text"></td>
+        <td ><input id="hardware" type="text" placeholder="hardware"></td>
     </tr>
     <tr>
         <td>software</td>
-        <td ><input type="text"></td>
+        <td ><input id="software" type="text" placeholder="software"></td>
         <td>software</td>
-        <td ><input type="text"></td>
+        <td ><input id="software" type="text" placeholder="software"></td>
     </tr>
     <tr>
         <td>otros</td>
-        <td ><input type="text"></td>
+        <td ><input id="otros" type="text" placeholder="otros"></td>
         <td>otros</td>
-        <td ><input type="text"></td>
+        <td ><input id="otros" type="text" placeholder="otros"></td>
     </tr>
     
     <tr>
@@ -89,15 +89,15 @@
     </tr>
     <tr>
         <td>Generales</td>
-        <td colspan="3"><input type="text"></td>
+        <td colspan="3"><input id="generales" type="text" placeholder="Generales"></td>
     </tr>
     <tr>
         <td>adicionales</td>
-        <td colspan="3"><input type="text"></td>
+        <td colspan="3"><input id="adicionales" type="text" placeholder="adicionales"></td>
     </tr>
     <tr>
         <td>Clientes del producto</td>
-        <td colspan="3"><input type="text"></td>
+        <td colspan="3"><input id="clienproduc" type="text" placeholder="clientes"></td>
     </tr>
     </table>
     <table>
@@ -137,17 +137,20 @@
         </tr>
         <tr>
             <td>Firma</td>
-            <td><input type="text"></td>
-            <td><input type="text"></td>
-            <td><input type="text"></td>
+            <td><input id="firma" type="text" placeholder="Firma"></td>
+            <td><input id="firma" type="text" placeholder="Firma"></td>
+            <td><input id="firma" type="text" placeholder="Firma"></td>
         </tr>
         <tr>
             <td>Fecha</td>
-            <td><input type="text"></td>
-            <td><input type="text"></td>
-            <td><input type="text"></td>
+            <td><input id="fecha" type="text" placeholder="Fecha"></td>
+            <td><input id="fecha" type="text" placeholder="Fecha"></td>
+            <td><input id="fecha" type="text" placeholder="Fecha"></td>
         </tr>
     </table>
 </form>
+<br>
+<button onclick="comprobar()">ENVIAR</button>
+<p id="respuesta"></p>
 </body>
 </html>

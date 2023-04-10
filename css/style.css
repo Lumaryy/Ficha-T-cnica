@@ -18,3 +18,10 @@ table,th,tr,td{
     text-align: center
 
 }
+body {
+   text-align: center;
+   
+}
+ button{
+    width: 30%;
+ }
