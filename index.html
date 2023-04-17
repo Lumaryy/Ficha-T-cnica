@@ -6,12 +6,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ficha tecnica</title>
     <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" href="img/megane.ico">
     <script src="js/script.js"></script>
 </head>
 <body>
     <h1>Formato de ficha técnica</h1>
     <form action="">
-    <table border="1">
+    <table>
         <tr>
             <td colspan="2"><b>FICHA TÉCNICA</b></td>
             <td><img src="img/megane.PNG" title="Megane"></td>
@@ -69,19 +70,19 @@
         <td>hadware</td>
         <td><input id="hardware" type="text" placeholder="hadware"></td>
         <td>hadware</td>
-        <td ><input id="hardware" type="text" placeholder="hardware"></td>
+        <td ><input id="hardware1" type="text" placeholder="hardware"></td>
     </tr>
     <tr>
         <td>software</td>
         <td ><input id="software" type="text" placeholder="software"></td>
         <td>software</td>
-        <td ><input id="software" type="text" placeholder="software"></td>
+        <td ><input id="software1" type="text" placeholder="software"></td>
     </tr>
     <tr>
         <td>otros</td>
         <td ><input id="otros" type="text" placeholder="otros"></td>
         <td>otros</td>
-        <td ><input id="otros" type="text" placeholder="otros"></td>
+        <td ><input id="otros1" type="text" placeholder="otros"></td>
     </tr>
     
     <tr>
@@ -113,15 +114,15 @@
     </tr>
     <tr>
         <td>00</td>
-        <td>Actualización documento</td>
-        <td>25/05/2021</td>
-        <td>25/06/2021</td>
+        <td><input id="actdoc" type="text" placeholder="Actualización documento"></td>
+        <td><input id="fechaprob" type="text" placeholder="Fecha de aprobación"></td>
+        <td><input id="fechavalid" type="text" placeholder="Fecha validación"></td>
     </tr>
     <tr>
         <td>01</td>
-        <td>Actualización documento</td>
-        <td>25/07/2021</td>
-        <td>25/08/2021</td>
+        <td><input id="actdoc1" type="text" placeholder="Actualización documento"></td>
+        <td><input id="fechaprob1" type="text" placeholder="Fecha de aprobación"></td>
+        <td><input id="fechavalid1" type="text" placeholder="Fecha validación"></td>
     </tr>
     </table>
     <table>
@@ -138,19 +139,61 @@
         <tr>
             <td>Firma</td>
             <td><input id="firma" type="text" placeholder="Firma"></td>
-            <td><input id="firma" type="text" placeholder="Firma"></td>
-            <td><input id="firma" type="text" placeholder="Firma"></td>
+            <td><input id="firma2" type="text" placeholder="Firma"></td>
+            <td><input id="firma3" type="text" placeholder="Firma"></td>
         </tr>
         <tr>
             <td>Fecha</td>
             <td><input id="fecha" type="text" placeholder="Fecha"></td>
-            <td><input id="fecha" type="text" placeholder="Fecha"></td>
-            <td><input id="fecha" type="text" placeholder="Fecha"></td>
+            <td><input id="fecha2" type="text" placeholder="Fecha"></td>
+            <td><input id="fecha3" type="text" placeholder="Fecha"></td>
         </tr>
     </table>
 </form>
 <br>
-<button onclick="comprobar()">ENVIAR</button>
+<button onclick="enviar()">Enviar</button>
+<h1 class="titulos">DETALLES DEL PRODUCTO</h1>
 <p id="respuesta"></p>
+<p id="respuesta2"></p>
+<p id="respuesta3"></p>
+<p id="respuesta4"></p>
+<p id="respuesta5"></p>
+<h1 class="titulos">DESCRIPCIÓN DEL PRODUCTO</h1>
+<p id="respuesta6"></p>
+<p id="respuesta7"></p>
+<h1 class="titulos">AQUITECTURA</h1>
+<p id="respuesta8"></p>
+<h1 class="titulos">REQUERIMIENTOS DEL PRODUCTO</h1>
+<h1 class="subtitulos">del servidor</h1>
+<p id="respuesta9"></p>
+<p id="respuesta10"></p>
+<p id="respuesta11"></p>
+<h1 class="subtitulos">del cliente</h1>
+<p id="respuesta12"></p>
+<p id="respuesta13"></p>
+<p id="respuesta14"></p>
+<h1 class="titulos">REQUERIMIENTOS</h1>
+<p id="respuesta15"></p>
+<p id="respuesta16"></p>
+<p id="respuesta17"></p>
+<h1 class="titulos">HISTORIAL DE MODIFICACIONES</h1>
+<h1 class="subtitulos">Versión 00</h1>
+<p id="respuesta18"></p>
+<p id="respuesta19"></p>
+<p id="respuesta20"></p>
+<h1 class="subtitulos">Versión 01</h1>
+<p id="respuesta21"></p>
+<p id="respuesta22"></p>
+<p id="respuesta23"></p>
+<h1 class="titulos">FIRMAS</h1>
+<h1 class="subtitulos">Elaboró</h1>
+<p id="respuesta24"></p>
+<p id="respuesta25"></p>
+<h1 class="subtitulos">Aprobó</h1>
+<p id="respuesta26"></p>
+<p id="respuesta27"></p>
+<h1 class="subtitulos">Validó</h1>
+<p id="respuesta28"></p>
+<p id="respuesta29"></p>
 </body>
 </html>
